@@ -91,6 +91,7 @@ button:hover {
 ################*/
 
 #shop-widget {
+    justify-content: center;
     display: flex;
 }
 
@@ -100,13 +101,24 @@ button:hover {
     border-width: 3px;
     padding-left: 50px;
     padding-right: 50px;
-    height: 250px;
-    width: 450px;
-
+    padding-top: 5px;
+    padding-bottom: 10px;
+    /*height: 250px;*/
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
 }
 
-
-/*  CAROUSEL   */
+#gold-button {
+    color: #FFB900;
+    border-color: #FFB900;
+    margin-left: 0px;
+    width: 100%;
+}
+#gold-button:hover {
+    color: black;
+    background-color: #FFB900;
+}
 
 img {
     width: 100%;
@@ -117,6 +129,22 @@ img {
 /*  POP-UP DIALOG  */
 
 dialog {
-    background-color:pink;
+    background-color:#0D0D0D;
+    color: white;
+    border-color: black;
+
     padding: 30px;
+    width: 30%;
+    height: 500px;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 50px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    text-align: center;
+
+    background-color: black;
 }

@@ -1,0 +1,87 @@
+/* MAIN */
+
+th {
+    padding-top: 20px;
+    font-size: 16pt;
+}
+
+body {
+    text-align: left;
+    margin: 10px;
+    font-family: "Lato";
+    color: white;
+    background-color: #0D0D0D;
+}
+table {
+    width: 100%;
+}
+
+form {
+    width: 100%;
+}
+
+/* Interactive */
+
+input {
+    margin-top: 10px;
+    width: 100%;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+
+    box-sizing: border-box;
+    background-color: #0D0D0D;
+
+    text-align: left;
+    color: white;
+    font-size: 14px;
+
+    border: solid;
+    border-color: #343434;
+    border-width: 3px;
+}
+
+select {
+    margin-top: 10px;
+    width: 100%;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+
+    box-sizing: border-box;
+    background-color: #0D0D0D;
+
+    text-align: left;
+    color: white;
+    font-size: 14px;
+
+    border: solid;
+    border-color: #343434;
+    border-width: 3px;
+}
+
+button {
+    background-color: #0D0D0D;
+    font-family: "Press Start 2P", system-ui;
+    color: white;
+    border: solid;
+    border-color: #FF2A2A;
+    border-width: 3px;
+    padding-top: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 15px;
+    text-align: center;
+
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: #FF2A2A;
+    color: black;
+}

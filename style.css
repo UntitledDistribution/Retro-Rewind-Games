@@ -67,7 +67,12 @@ button:hover {
     color: black; 
 }
 
-/* SHARED SECTIONS */
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* SHARED BOXES */
 #outer-box {
     margin-top: 2%;
     border: solid;
@@ -86,13 +91,46 @@ button:hover {
     margin: 15px
 }
 
+#search-box {
+    margin-top: 2%;
+    
+    width: 75%;
+
+    padding-left: 20px;
+
+    background-color: #0D0D0D;
+
+    color: white;
+
+    border: solid;
+    border-color: #343434;
+    text-align: left;
+    font-family: "Press Start 2P", system-ui;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-width: 5px;
+}
+
+/* Embedded content formatting */
+
+iframe {
+    width: 100%;
+    /* height gets defined on widget */
+    border-style: none;
+}
+
+
+
 /*################
 #      SHOP      #
 ################*/
 
 #shop-widget {
+    margin-top: 20px;
     justify-content: center;
     display: flex;
+    margin-left: 15px; 
+    margin-right: 15px
 }
 
 #shop-card {
@@ -109,6 +147,14 @@ button:hover {
     width: 100%;
 }
 
+#shop-card-image {
+    border: dashed;
+    border-color: #343434;
+    text-align: center;
+    border-width: 4px; /* Just right when looking back and fourth with my designs. */
+}
+
+
 #gold-button {
     color: #FFB900;
     border-color: #FFB900;
@@ -119,12 +165,6 @@ button:hover {
     color: black;
     background-color: #FFB900;
 }
-
-img {
-    width: 100%;
-    height: auto;
-}
-
 
 /*  POP-UP DIALOG  */
 

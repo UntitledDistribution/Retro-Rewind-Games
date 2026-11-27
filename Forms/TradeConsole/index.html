@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+
+        <!-- GOOGLE FONTS IMPORT -->    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form>
+        <table>
+
+
+            <!-- Question 1: Console Name | TEXT -->
+
+            <tr> <!-- TR = Table Row -->
+                <th>Console Name</th> <!-- TH = Table Heading -->
+            </tr>
+            <tr>
+                <td> <!-- TD = Table Data -->
+                    <input type="text" class="form"; id="text-box" name="tradeConsoleForm" placeholder="Type here...">
+                </td>
+            </tr>
+
+            <!-- Question 2: Console Condition | DROPDOWN -->
+
+            <tr> <!-- TR = Table Row -->
+                <th>Product Condition</th> <!-- TH = Table Heading -->
+            </tr>
+            <tr>
+                <td> <!-- TD = Table Data -->
+                    <select id="condition">
+                        <option>-- Select an option --</option> <!-- Default is at top -->
+
+                        <option value="excellent">Excellent: like-new condition (must include box)</option>
+                        <option value="good">Good: Light microscopic scratches. Any box</option>
+                        <option value="okay">Okay: Product functions, may feature large scratches. Any container</option>
+                        <option value="poor">Poor: Product is holding on for dear life</option>
+                        <option value="broken">Broken: To be used as repair parts only</option>
+                    </select>
+                </td>
+            </tr>
+
+            <!-- Question 3: Seller Price -->
+            <tr> <!-- TR = Table Row -->
+                <th>Requested Price</th> <!-- TH = Table Heading -->
+            </tr>
+            <tr>
+                <td> <!-- TD = Table Data -->
+                    <input type="text" class="form"; id="text-box" name="tradeConsoleForm" placeholder="Type here...">
+                </td>
+            </tr>
+
+        </table>
+
+        <button>Submit</button>
+    </form>
+</body>
+</html>

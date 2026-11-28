@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+
+        <!-- GOOGLE FONTS IMPORT -->    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form>
+        <table>
+
+
+            <!-- Question 1: First Name | TEXT -->
+
+            <tr> <!-- TR = Table Row -->
+                <th>First Name</th> <!-- TH = Table Heading -->
+            </tr>
+            <tr>
+                <td> <!-- TD = Table Data -->
+                    <input type="text" class="form"; name="firstName" placeholder="Type here...">
+                </td>
+            </tr>
+
+            <!-- Question 2: Last Name | TEXT -->
+
+            <tr> <!-- TR = Table Row -->
+                <th>Last Name</th> <!-- TH = Table Heading -->
+            </tr>
+            <tr>
+                <td> <!-- TD = Table Data -->
+                    <input type="text" class="form"; name="lastName" placeholder="Type here...">
+                </td>
+            </tr>
+
+            <!-- Question 3: Student Email Address | TEXT -->
+
+            <tr> <!-- TR = Table Row -->
+                <th>Student Email Address</th> <!-- TH = Table Heading -->
+            </tr>
+            <tr>
+                <td> <!-- TD = Table Data -->
+                    <input type="text" class="form"; name="email" placeholder="Type here...">
+                </td>
+            </tr>
+
+            <!-- Question 4: Contact Number | TEXT -->
+
+            <tr> <!-- TR = Table Row -->
+                <th>Contact Number</th> <!-- TH = Table Heading -->
+            </tr>
+            <tr>
+                <td> <!-- TD = Table Data -->
+                    <input type="text" class="form"; name="contactNumber" placeholder="Type here...">
+                </td>
+            </tr>
+
+            <!-- Question 5: College Course | TEXT -->
+
+            <tr> <!-- TR = Table Row -->
+                <th>College Course</th> <!-- TH = Table Heading -->
+            </tr>
+            <tr>
+                <td> <!-- TD = Table Data -->
+                    <input type="text" class="form"; name="collegeCourse" placeholder="Type here...">
+                </td>
+            </tr>
+
+            <!-- Question 6: Year of Study | TEXT -->
+
+            <tr> <!-- TR = Table Row -->
+                <th>Year of Study</th> <!-- TH = Table Heading -->
+            </tr>
+            <tr>
+                <td> <!-- TD = Table Data -->
+                    <input type="text" class="form"; name="studyYear" placeholder="Type here...">
+                </td>
+            </tr>
+
+            <!-- Question 7: First Name | TEXT -->
+
+            <tr> <!-- TR = Table Row -->
+                <th>Preferred Placement Dates</th> <!-- TH = Table Heading -->
+            </tr>
+            <tr>
+                <td> <!-- TD = Table Data -->
+                    <p>Start Date:</p>
+                    <input style="margin-top: 0px !important" type="date" class="form"; name="startDate">
+                    <p>Finish Date:</p>
+                    <input style="margin-top: 0px !important" type="date" class="form"; name="finishDate">
+                </td>
+            </tr>
+
+            <!-- Question 8: Area of Interest | DROPDOWN -->
+
+            <tr> <!-- TR = Table Row -->
+                <th>Area of Interest</th> <!-- TH = Table Heading -->
+            </tr>
+            <tr>
+                <td> <!-- TD = Table Data -->
+                    <select name="interests">
+                        <option value="">-- Select an Option --</option>
+
+                        <option value="retail">Retail Operations</option>
+                        <option value="service">Customer Service</option>
+                        <option value="development">Website Development</option>
+                        <option value="marketing">Digital Marketing</option>
+                        <option value="media">Social Media Content Creation</option>
+                        <option value="stock">Stock Management</option>
+                        <option value="events">Event Planning and Gaming Tournaments</option>
+                    </select>
+                </td>
+            </tr>
+
+            <!-- Question 9: Skills and Interests | CHECKBOX -->
+
+            <tr> <!-- TR = Table Row -->
+                <th style="padding-bottom: 15px;">Skills and Interests</th> <!-- TH = Table Heading -->
+            </tr>
+            <tr>
+                <td> <!-- TD = Table Data -->
+                    <input type="checkbox" name="gaming">
+                    <label for="gaming">Gaming Knowledge</label>
+                    <p></p>
+                    <input type="checkbox" name="communication">
+                    <label for="communication">Customer Communication</label>
+                    <p></p>
+                    <input type="checkbox" name="graphic">
+                    <label for="graphic">Graphic Design</label>
+                    <p></p>
+                    <input type="checkbox" name="programming">
+                    <label for="programming">Programming</label>
+                    <p></p>
+                    <input type="checkbox" name="media">
+                    <label for="media">Social Media</label>
+                    <p></p>
+                    <input type="checkbox" name="creator">
+                    <label for="creator">Content Creation</label>
+                    <p></p>
+                    <input type="checkbox" name="teamwork">
+                    <label for="teamwork">Teamwork</label>
+                    <p></p>
+                    <input type="checkbox" name="solving">
+                    <label for="solving">Problem Solving</label>
+                </td>
+            </tr>
+
+        </table>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

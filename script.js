@@ -1,19 +1,3 @@
-const dialog = document.querySelector('#dialog-contact');
-const openButton = document.querySelector('#launch-contact');
-const closeButton = document.querySelector('#close-contact');
-
-openButton.addEventListener('click', () => {
-
-    dialog.showModal();
-
-});
-
-closeButton.addEventListener('click', () => {
-
-    dialog.close();
-
-});
-
 // CAROUSEL BANNERS
 const photos = [
     {
@@ -43,7 +27,7 @@ const image = document.querySelector('#carousel-image');
 
 function showPhoto() {
     image.src = photos[currentIndex].src;
-    image.alt = protos[currentIndex].alt;
+    image.alt = photos[currentIndex].alt;
 }
 
 document.querySelector('#next').addEventListener('click', () => {

@@ -46,6 +46,12 @@ h2 {
     font-size: 14px
 }
 
+h3 {
+    font-family: "Press Start 2P", system-ui;
+    color: #FF2A2A;
+    font-size: 14px
+}
+
 button {
     background-color: #0D0D0D;
     font-family: "Press Start 2P", system-ui;
@@ -82,6 +88,13 @@ img {
     border-width: 3px;
     margin-left: 2%;
     margin-right: 2%;
+}
+
+#outer-box-dashed {
+    border: dashed;
+    border-color: #343434;
+    text-align: center;
+    border-width: 4px; /* Just right when looking back and fourth with my designs. */
 }
 
 #inner-box {
@@ -147,14 +160,6 @@ iframe {
     width: 100%;
 }
 
-#shop-card-image {
-    border: dashed;
-    border-color: #343434;
-    text-align: center;
-    border-width: 4px; /* Just right when looking back and fourth with my designs. */
-}
-
-
 #gold-button {
     color: #FFB900;
     border-color: #FFB900;
@@ -164,6 +169,41 @@ iframe {
 #gold-button:hover {
     color: black;
     background-color: #FFB900;
+}
+
+/*
+########################
+# SPECIAL EVENTS TABLE #
+########################
+*/
+
+th {
+    font-family: "Press Start 2P";
+    font-size: 14px;
+
+    border-color: #FF2A2A !important; /* CSS Rule didn't work. so I had to force it to apply */
+    border-left: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-top: solid;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+td {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    border-color: #FF2A2A !important; /* CSS Rule didn't work. so I had to force it to apply */
+
+    border-left: dashed;
+    border-right: dashed;
+    border-bottom: dashed;
+}
+
+table {
+    width: 100%;
+    height: 100%;
 }
 
 /*  POP-UP DIALOG  */

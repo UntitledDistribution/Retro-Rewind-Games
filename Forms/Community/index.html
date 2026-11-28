@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+
+        <!-- GOOGLE FONTS IMPORT -->    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form>
+        <table>
+
+
+            <!-- Question 1: Console Name | TEXT -->
+
+            <tr> <!-- TR = Table Row -->
+                <th>Event of Interest</th> <!-- TH = Table Heading -->
+            </tr>
+            <tr>
+                <td> <!-- TD = Table Data -->
+                    <select id="interest" name="interest-field">
+                        <option>-- Select an option --</option> <!-- Default is at top -->
+
+                        <option value="230127">Retro Launch Tournament</option>
+                        <option value="270327">80s Gaming Weekend</option>
+                        <option value="190627">Summer Gaming Festival</option>
+                        <option value="180927">Retro vs Modern Challenge</option>
+                        <option value="301027">Halloween Horror Gaming Night</option>
+                        <option value="111227">Winter Gaming Championship</option>
+                    </select>
+                </td>
+            </tr>
+
+            <!-- Question 2: Console Condition | DROPDOWN -->
+
+            <tr> <!-- TR = Table Row -->
+                <th>Contact Telephone Number</th> <!-- TH = Table Heading -->
+            </tr>
+            <tr>
+                <td> <!-- TD = Table Data -->
+                    <input type="text" class="form"; name="contact-telephone" placeholder="Format: +44 1234 456789">
+                </td>
+            </tr>
+
+        </table>
+
+        <button>Submit</button>
+    </form>
+</body>
+</html>

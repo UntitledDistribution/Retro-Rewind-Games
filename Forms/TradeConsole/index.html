@@ -24,7 +24,7 @@
             </tr>
             <tr>
                 <td> <!-- TD = Table Data -->
-                    <input type="text" class="form"; id="text-box" name="tradeConsoleForm" placeholder="Type here...">
+                    <input type="text" class="form"; id="text-box" name="consoleName" placeholder="Type here...">
                 </td>
             </tr>
 
@@ -35,8 +35,8 @@
             </tr>
             <tr>
                 <td> <!-- TD = Table Data -->
-                    <select id="condition">
-                        <option>-- Select an option --</option> <!-- Default is at top -->
+                    <select name="consoleCondition">
+                        <option value="">-- Select an option --</option> <!-- Default is at top - I specified value to be nothing otherwise I could get an unexpected result -->
 
                         <option value="excellent">Excellent: like-new condition (must include box)</option>
                         <option value="good">Good: Light microscopic scratches. Any box</option>
